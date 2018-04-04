@@ -9,8 +9,14 @@ app.get("/", function(req,res){
     res.render("landing")
 });
 var campgrounds = [
-        {name:"Night Stars", image:"https://pixabay.com/get/e136b80728f31c22d2524518b7444795ea76e5d004b0144394f7c378aeeab0_340.jpg"},
-        {name:"Northern Lights", image:"https://pixabay.com/get/eb37b9082df3003ed1584d05fb1d4e97e07ee3d21cac104497f1c67ba0eab2bf_340.jpg"},
+        {name:"Snow Moutain", image:"https://images.unsplash.com/photo-1437382944886-45a9f73d4158?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3895efc1fd5d2fb67acdaee4b5d9c463&auto=format&fit=crop&w=500&q=60"},
+        {name:"Lake View", image:"https://images.unsplash.com/photo-1484960055659-a39d25adcb3c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ffdbb5e90a2c129258d4540ef0f29d06&auto=format&fit=crop&w=500&q=60"},
+        {name:"Vermilion", image:"https://farm8.staticflickr.com/7296/28070862692_32f82c02ba.jpg"},
+        {name:"Snow Moutain", image:"https://images.unsplash.com/photo-1437382944886-45a9f73d4158?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3895efc1fd5d2fb67acdaee4b5d9c463&auto=format&fit=crop&w=500&q=60"},
+        {name:"Lake View", image:"https://images.unsplash.com/photo-1484960055659-a39d25adcb3c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ffdbb5e90a2c129258d4540ef0f29d06&auto=format&fit=crop&w=500&q=60"},
+        {name:"Vermilion", image:"https://farm8.staticflickr.com/7296/28070862692_32f82c02ba.jpg"},
+        {name:"Snow Moutain", image:"https://images.unsplash.com/photo-1437382944886-45a9f73d4158?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3895efc1fd5d2fb67acdaee4b5d9c463&auto=format&fit=crop&w=500&q=60"},
+        {name:"Lake View", image:"https://images.unsplash.com/photo-1484960055659-a39d25adcb3c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ffdbb5e90a2c129258d4540ef0f29d06&auto=format&fit=crop&w=500&q=60"},
         {name:"Vermilion", image:"https://farm8.staticflickr.com/7296/28070862692_32f82c02ba.jpg"}
 ]
 
